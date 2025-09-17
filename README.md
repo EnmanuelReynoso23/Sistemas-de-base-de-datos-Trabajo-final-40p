@@ -8,10 +8,10 @@
 
 | Desarrollador | Rol |
 |---------------|-----|
-| **Ryan** | Diseño de Entidades y Relaciones |
-| **Noelia** | Normalización y Integridad Referencial |
-| **Enmanuel** | Consultas SQL y Procedimientos Almacenados |
-| **Anael** | Testing y Verificación de Relaciones |
+| **Ryan** |  |
+| **Noelia** |  |
+| **Enmanuel** |  |
+| **Anael** |  |
 
 ## 📋 Descripción del Proyecto
 
