@@ -8,7 +8,7 @@
 
 | Desarrollador | Rol |
 |---------------|-----|
-| **Ryan** |  |
+| **Ryan** | Procedimientos de almacenados |
 | **Noelia** | Tablas de la base de datos con Anael  |
 | **Enmanuel** |Esquema y Diccionario  |
 | **Anael** | Tablas de la base de datos |
