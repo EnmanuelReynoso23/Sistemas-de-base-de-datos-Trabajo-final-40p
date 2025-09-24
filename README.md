@@ -9,9 +9,9 @@
 | Desarrollador | Rol |
 |---------------|-----|
 | **Ryan** |  |
-| **Noelia** |  |
-| **Enmanuel** |  |
-| **Anael** |  |
+| **Noelia** | Tablas de la base de datos con Anael  |
+| **Enmanuel** |Esquema y Diccionario  |
+| **Anael** | Tablas de la base de datos |
 
 ## 📋 Descripción del Proyecto
 
