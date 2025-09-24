@@ -196,21 +196,12 @@ El sistema incluye scripts de verificación para garantizar:
 - **Normalización 3NF**: Minimización de redundancia de datos
 - **Integridad**: 100% de consistencia referencial
 
-## 🤝 Contribución
 
-Para contribuir al proyecto, cada miembro del equipo debe seguir la metodología establecida de desarrollo colaborativo, manteniendo la coherencia en el diseño y respetando las convenciones de nomenclatura definidas.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
 
 ### 🎓 Proyecto Académico - Diseño de Base de Datos Relacionales
 **Universidad**: Universidad Abierta Para Adultos (UAPA)  
 **Curso**: Bases de Datos Relacionales  
-**Período**: 2024
+**Período**: 2025
 
 ---
 
-*"Una base de datos bien diseñada es la base de un sistema exitoso"* 🚀
