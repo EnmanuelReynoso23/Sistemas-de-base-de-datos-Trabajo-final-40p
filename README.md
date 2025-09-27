@@ -1,3 +1,4 @@
+
 # 🧾 Sistema de Facturación - Base de Datos Relacional
 
 [![Database](https://img.shields.io/badge/Database-MySQL-blue)](https://mysql.com)
@@ -6,12 +7,12 @@
 
 ## 👥 Equipo de Desarrollo
 
-| Desarrollador | Rol |
-|---------------|-----|
-| **Ryan** | Procedimientos de almacenados |
-| **Noelia** | Tablas de la base de datos con Anael  |
-| **Enmanuel** |Esquema y Diccionario  |
-| **Anael** | Tablas de la base de datos |
+| Desarrollador      | Rol                                  |
+| ------------------ | ------------------------------------ |
+| **Ryan**     | Procedimientos de almacenados        |
+| **Noelia**   | Tablas de la base de datos con Anael |
+| **Enmanuel** | Esquema y Diccionario                |
+| **Anael**    | Tablas de la base de datos           |
 
 ## 📋 Descripción del Proyecto
 
@@ -30,11 +31,10 @@ Sistema integral de facturación que permite gestionar de manera eficiente toda 
 ### Entidades Principales
 
 #### 🏢 **CLIENTES**
-- 
 
 #### 📦 **PRODUCTOS**
-- **ID_Producto** (PK) - INT AUTO_INCREMENT
 
+- **ID_Producto** (PK) - INT AUTO_INCREMENT
 
 #### 👤 **USUARIOS**
 
@@ -42,12 +42,9 @@ Sistema integral de facturación que permite gestionar de manera eficiente toda 
 
 #### 📝 **DETALLE_FACTURA**
 
-
 #### 💰 **PAGOS**
 
-
 #### 📊 **CUENTAS_POR_COBRAR**
-
 
 ### 🔗 Relaciones entre Entidades
 
@@ -64,6 +61,7 @@ Sistema integral de facturación que permite gestionar de manera eficiente toda 
 ## 📁 Estructura del Proyecto
 
 ```
+
 sistema-facturacion/
 ├── 📁 database/
 │   ├── 01_create_database.sql
@@ -93,6 +91,7 @@ sistema-facturacion/
 │   ├── diccionario_datos.md
 │   └── manual_usuario.md
 └── README.md
+
 ```
 
 ## 🚀 Instalación y Configuración
@@ -149,3 +148,4 @@ El sistema incluye scripts de verificación para garantizar:
 
 ---
 
+```
