@@ -160,11 +160,17 @@ El sistema incluye scripts de verificación para garantizar:
 - **Normalización 3NF**: Minimización de redundancia de datos
 - **Integridad**: 100% de consistencia referencial
 
+## ⚡ Instalación Automática con setup_db.ps1
 
+1. Abre PowerShell como administrador.
+2. Ve a la carpeta del proyecto (ejemplo si está en Descargas):
+   ```powershell
+   cd "C:\Users\reyno\Downloads\Sistemas-de-base-de-datos-Trabajo-final-40p"
+   ```
+3. Ejecuta el script:
+   ```powershell
+   .\setup_db.ps1
+   ```
+4. Ingresa la contraseña de PostgreSQL cuando lo pida.
 
-### 🎓 Proyecto Académico - Diseño de Base de Datos Relacionales
-**Universidad**: Universidad Abierta Para Adultos (UAPA)  
-**Curso**: Bases de Datos Relacionales  
-**Período**: 2025
-
----
+Esto creará la base de datos, los esquemas y ejecutará todos los scripts de estructura automáticamente.
