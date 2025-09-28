@@ -1,4 +1,3 @@
-
 # 🧾 Sistema de Facturación - Base de Datos Relacional
 
 [![Database](https://img.shields.io/badge/Database-MySQL-blue)](https://mysql.com)
@@ -98,6 +97,28 @@ sistema-facturacion/
 
 El proyecto requiere la instalación de un Sistema de Gestión de Base de Datos MySQL y la ejecución secuencial de los scripts de creación de base de datos, tablas, relaciones e índices. Los procedimientos almacenados deben ser implementados siguiendo la estructura modular propuesta.
 
+## 📦 Exportar e Importar la Base de Datos Completa (PostgreSQL)
+
+### Exportar (crear backup.sql)
+
+1. Abre PowerShell en la carpeta del proyecto.
+2. Ejecuta:
+   ```powershell
+   pg_dump -U postgres -p 2525 -d sistema_facturacion > backup.sql
+   ```
+3. Sube el archivo `backup.sql` al repositorio de GitHub.
+
+### Importar (restaurar backup.sql)
+
+1. Clona el repositorio y ve a la carpeta del proyecto.
+2. Abre PowerShell y ejecuta:
+   ```powershell
+   psql -U postgres -p 2525 -d sistema_facturacion -f backup.sql
+   ```
+3. La base de datos se restaurará con toda la estructura y datos.
+
+---
+
 ## ✅ Criterios de Normalización Aplicados
 
 ### Primera Forma Normal (1NF)
@@ -147,5 +168,3 @@ El sistema incluye scripts de verificación para garantizar:
 **Período**: 2025
 
 ---
-
-```
